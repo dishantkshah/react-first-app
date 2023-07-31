@@ -1,0 +1,37 @@
+.container {
+	max-width: 66rem;
+	padding: 0 1rem;
+	margin: 3rem auto 6rem;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.headerTitle {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+
+.linkButton {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.backToHome {
+	margin: 3rem 0 0;
+}
